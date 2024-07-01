@@ -22,7 +22,7 @@ firebase.getImageURL(props.imageURL).then((url) =>seturl(url))
           {props.displayName} build on {props.price} the card title and make up the
           bulk of the card's content
         </Card.Text>
-        <Button onClick={e=>navigate(`/book/view/${props.id}`)} variant="primary">View</Button>
+        <Button onClick={e=>navigate(`/firebase_project/book/view/${props.id}`)} variant="primary">View</Button>
       </Card.Body>
     </Card>
   );

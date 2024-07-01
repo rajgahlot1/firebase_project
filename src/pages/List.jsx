@@ -11,6 +11,7 @@ const handleSubmit= async(e)=>{
     e.preventDefault();
 
     await firebase.handleCreateNewListing(name,bnNumber,price,coverPic)
+    console.log(coverPic)
 }    
 return (
     <div> <h1>Book</h1> 
